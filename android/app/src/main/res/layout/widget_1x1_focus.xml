@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/widget_root"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/widget_dark_green_outline"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="4dp">
+
+    <!-- "Next Prayer" Label -->
+    <TextView
+        android:id="@+id/next_prayer_label"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:text="Next Prayer"
+        android:textSize="10sp"
+        android:textColor="#4CAF50"
+        android:gravity="center"
+        android:maxLines="1"
+        android:ellipsize="end" />
+
+    <!-- Prayer Name -->
+    <TextView
+        android:id="@+id/current_prayer_name"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:text="Fajr"
+        android:textSize="14sp"
+        android:textStyle="bold"
+        android:textColor="#4CAF50"
+        android:gravity="center"
+        android:maxLines="1"
+        android:ellipsize="end" />
+
+    <!-- Prayer Time -->
+    <TextView
+        android:id="@+id/prayer_time"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:text="5:23 AM"
+        android:textSize="12sp"
+        android:textColor="#4CAF50"
+        android:gravity="center"
+        android:maxLines="1"
+        android:ellipsize="end" />
+
+    <!-- Countdown Timer -->
+    <TextView
+        android:id="@+id/countdown_time"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:text="02:15:30"
+        android:textSize="10sp"
+        android:textColor="#4CAF50"
+        android:gravity="center"
+        android:maxLines="1"
+        android:ellipsize="end" />
+
+</LinearLayout>

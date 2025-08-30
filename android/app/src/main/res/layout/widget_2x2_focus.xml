@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/widget_root"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#4CAF50"
+    android:padding="16dp"
+    android:gravity="center">
+
+    <!-- Current Prayer Title -->
+    <TextView
+        android:id="@+id/prayer_status_label"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Next Prayer"
+        android:textColor="@android:color/white"
+        android:textSize="12sp"
+        android:textStyle="normal"
+        android:fontFamily="sans-serif-medium"
+        android:alpha="0.9"
+        android:layout_marginBottom="4dp" />
+
+    <!-- Prayer Name (Large) -->
+    <TextView
+        android:id="@+id/current_prayer_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Fajr"
+        android:textColor="@android:color/white"
+        android:textSize="22sp"
+        android:textStyle="bold"
+        android:fontFamily="sans-serif-black"
+        android:layout_marginBottom="2dp" />
+
+    <!-- Prayer Time (Medium) -->
+    <TextView
+        android:id="@+id/current_prayer_time"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="5:23"
+        android:textColor="@android:color/white"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:fontFamily="sans-serif-medium"
+        android:layout_marginBottom="16dp" />
+
+    <!-- Countdown Timer -->
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="4dp">
+
+        <TextView
+            android:id="@+id/countdown_prefix"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="in "
+            android:textColor="@android:color/white"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:fontFamily="sans-serif-black" />
+
+        <TextView
+            android:id="@+id/countdown_time"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="07:05:30"
+            android:textColor="@android:color/white"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:fontFamily="sans-serif-black" />
+
+    </LinearLayout>
+
+</LinearLayout>

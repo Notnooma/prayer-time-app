@@ -1,0 +1,220 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/widget_root"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/widget_dark_green_outline"
+    android:padding="8dp">
+
+    <!-- Title Row -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Prayer Times"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:textColor="#4CAF50"
+        android:gravity="center"
+        android:fontFamily="sans-serif-black"
+        android:layout_marginBottom="4dp" />
+
+    <!-- Prayer Times Grid -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="vertical">
+
+        <!-- First Row: Fajr and Dhuhr -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:orientation="horizontal">
+
+            <!-- Fajr -->
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:orientation="vertical"
+                android:gravity="center"
+                android:padding="2dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Fajr"
+                    android:textSize="12sp"
+                    android:textColor="#4CAF50"
+                    android:fontFamily="sans-serif-black"
+                    android:gravity="center" />
+
+                <TextView
+                    android:id="@+id/fajr_time"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="5:23 AM"
+                    android:textSize="14sp"
+                    android:textColor="#4CAF50"
+                    android:fontFamily="sans-serif-black"
+                    android:gravity="center" />
+
+            </LinearLayout>
+
+            <!-- Dhuhr -->
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:orientation="vertical"
+                android:gravity="center"
+                android:padding="2dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Dhuhr"
+                    android:textSize="12sp"
+                    android:textColor="#4CAF50"
+                    android:fontFamily="sans-serif-black"
+                    android:gravity="center" />
+
+                <TextView
+                    android:id="@+id/dhuhr_time"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="1:33 PM"
+                    android:textSize="14sp"
+                    android:textColor="#4CAF50"
+                    android:fontFamily="sans-serif-black"
+                    android:gravity="center" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <!-- Second Row: Asr and Maghrib -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:orientation="horizontal">
+
+            <!-- Asr -->
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:orientation="vertical"
+                android:gravity="center"
+                android:padding="2dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Asr"
+                    android:textSize="12sp"
+                    android:textColor="#4CAF50"
+                    android:fontFamily="sans-serif-black"
+                    android:gravity="center" />
+
+                <TextView
+                    android:id="@+id/asr_time"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="5:16 PM"
+                    android:textSize="14sp"
+                    android:textColor="#4CAF50"
+                    android:fontFamily="sans-serif-black"
+                    android:gravity="center" />
+
+            </LinearLayout>
+
+            <!-- Maghrib -->
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:orientation="vertical"
+                android:gravity="center"
+                android:padding="2dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Maghrib"
+                    android:textSize="12sp"
+                    android:textColor="#4CAF50"
+                    android:fontFamily="sans-serif-black"
+                    android:gravity="center" />
+
+                <TextView
+                    android:id="@+id/maghrib_time"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="8:13 PM"
+                    android:textSize="14sp"
+                    android:textColor="#4CAF50"
+                    android:fontFamily="sans-serif-black"
+                    android:gravity="center" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <!-- Third Row: Isha -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:orientation="horizontal">
+
+            <!-- Isha (centered) -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:gravity="center"
+                android:padding="2dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Isha"
+                    android:textSize="12sp"
+                    android:textColor="#4CAF50"
+                    android:fontFamily="sans-serif-black"
+                    android:gravity="center" />
+
+                <TextView
+                    android:id="@+id/isha_time"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="9:32 PM"
+                    android:textSize="14sp"
+                    android:textColor="#4CAF50"
+                    android:fontFamily="sans-serif-black"
+                    android:gravity="center" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <!-- Countdown Timer -->
+    <TextView
+        android:id="@+id/countdown_timer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="00:15:30 until Isha"
+        android:textSize="14sp"
+        android:textColor="#4CAF50"
+        android:fontFamily="sans-serif-black"
+        android:gravity="center"
+        android:layout_marginTop="4dp"
+        android:padding="4dp" />
+
+</LinearLayout>

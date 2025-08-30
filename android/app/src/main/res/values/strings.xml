@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">WIA Prayer Times</string>
+    <string name="prayer_widget_description">Simple prayer times widget</string>
+    <string name="prayer_time_widget_description">Prayer times widget with next prayer and countdown</string>
+    <string name="wia_prayer_widget_description">Beautiful prayer times widget with green theme - resizes perfectly to any dimension</string>
+    <string name="compact_prayer_widget_description">Compact prayer times widget</string>
+    
+    <!-- New 4x1 Widget Strings -->
+    <string name="widget_description_4x1">Prayer Times - All prayers with live countdown</string>
+    
+    <!-- New 2x2 Widget Strings -->
+    <string name="widget_description_2x2">Prayer Times Square - Compact 2x2 widget with countdown</string>
+</resources>

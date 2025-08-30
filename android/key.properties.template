@@ -1,0 +1,8 @@
+# Store the passwords and key information for release signing
+# This file should NOT be committed to version control
+# Add this file to .gitignore
+
+storePassword=YOUR_KEYSTORE_PASSWORD_HERE
+keyPassword=YOUR_KEY_PASSWORD_HERE  
+keyAlias=wia-prayer
+storeFile=wia-prayer-release-key.keystore

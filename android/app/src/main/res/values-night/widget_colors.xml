@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Prayer Widget Dark Mode Colors -->
+    <color name="prayer_label_color">#81C784</color>
+    <color name="prayer_time_color">#A5D6A7</color>
+    <color name="countdown_text_color">#66BB6A</color>
+    <color name="widget_background">#2E2E2E</color>
+    <color name="widget_border">#4CAF50</color>
+    
+    <!-- Option B Widget Dark Mode Colors (mapping to existing colors) -->
+    <color name="widget_text_primary">#A5D6A7</color>
+    <color name="widget_text_secondary">#81C784</color>
+    <color name="widget_countdown_color">#66BB6A</color>
+</resources>

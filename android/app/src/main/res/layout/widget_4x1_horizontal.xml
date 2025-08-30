@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/widget_root"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/widget_dark_green_outline"
+    android:padding="8dp">
+
+    <!-- Prayer Times Row -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="2"
+        android:orientation="horizontal"
+        android:gravity="center_vertical">
+
+        <!-- Fajr -->
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical"
+            android:gravity="center">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Fajr"
+                android:textSize="14sp"
+                android:textColor="#4CAF50"
+                android:textStyle="bold"
+                android:fontFamily="sans-serif-medium" />
+
+            <TextView
+                android:id="@+id/fajr_time"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="5:21"
+                android:textSize="16sp"
+                android:textColor="#4CAF50"
+                android:textStyle="bold"
+                android:fontFamily="sans-serif-black" />
+
+        </LinearLayout>
+
+        <!-- Dhuhr -->
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical"
+            android:gravity="center">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Dhuhr"
+                android:textSize="14sp"
+                android:textColor="#4CAF50"
+                android:textStyle="bold"
+                android:fontFamily="sans-serif-medium" />
+
+            <TextView
+                android:id="@+id/dhuhr_time"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="12:36"
+                android:textSize="16sp"
+                android:textColor="#4CAF50"
+                android:textStyle="bold"
+                android:fontFamily="sans-serif-black" />
+
+        </LinearLayout>
+
+        <!-- Asr -->
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical"
+            android:gravity="center">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Asr"
+                android:textSize="14sp"
+                android:textColor="#4CAF50"
+                android:textStyle="bold"
+                android:fontFamily="sans-serif-medium" />
+
+            <TextView
+                android:id="@+id/asr_time"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="3:45"
+                android:textSize="16sp"
+                android:textColor="#4CAF50"
+                android:textStyle="bold"
+                android:fontFamily="sans-serif-black" />
+
+        </LinearLayout>
+
+        <!-- Maghrib -->
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical"
+            android:gravity="center">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Maghrib"
+                android:textSize="14sp"
+                android:textColor="#4CAF50"
+                android:textStyle="bold"
+                android:fontFamily="sans-serif-medium" />
+
+            <TextView
+                android:id="@+id/maghrib_time"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="6:14"
+                android:textSize="16sp"
+                android:textColor="#4CAF50"
+                android:textStyle="bold"
+                android:fontFamily="sans-serif-black" />
+
+        </LinearLayout>
+
+        <!-- Isha -->
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical"
+            android:gravity="center">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Isha"
+                android:textSize="14sp"
+                android:textColor="#4CAF50"
+                android:textStyle="bold"
+                android:fontFamily="sans-serif-medium" />
+
+            <TextView
+                android:id="@+id/isha_time"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="7:35"
+                android:textSize="16sp"
+                android:textColor="#4CAF50"
+                android:textStyle="bold"
+                android:fontFamily="sans-serif-black" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <!-- Countdown Timer Section -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="horizontal"
+        android:gravity="center">
+
+        <TextView
+            android:id="@+id/countdown_timer"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="02:34:12 until Maghrib Adhan"
+            android:textSize="15sp"
+            android:textColor="#4CAF50"
+            android:textStyle="bold"
+            android:fontFamily="sans-serif-black"
+            android:gravity="center"
+            android:padding="8dp" />
+
+    </LinearLayout>
+
+</LinearLayout>
